@@ -1,8 +1,9 @@
 body {
-    font-family: sans-serif;
+    font-family: impact;
     width: 800px;
     margin: 0 auto;
     padding: 10px;
+    background-color: LightSteelBlue;
 }
 
 .error {

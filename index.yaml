@@ -28,10 +28,40 @@ indexes:
 
 - kind: Post
   properties:
+  - name: author=
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
   - name: author_key=
   - name: created
 
 - kind: Post
   properties:
+  - name: post.author.key().id()
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
+  - name: user.username=
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
   - name: user=
   - name: created
+
+- kind: Post
+  properties:
+  - name: username
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
+  - name: username=
+  - name: created
+    direction: desc
